@@ -1,5 +1,7 @@
 # Kubernetes Architecture Design Record Based on Measured Data
 
+![main-image](/docs/images/main-image.png)
+
 ### **온프레미스, 클라우드 환경의 K8s 아키텍처를 선정하며, 다양한 툴체인의 선정 기준을 토대로 실측한 내용을 기록합니다.**
 
 ## 목차
@@ -47,7 +49,7 @@ Terraform, Ansible 기반으로 코드화 하였으며, PR, Issue, Fork 모두 �
 ### 1. 최소한의 비용으로 설계한다.
 >최소 인프라 리소스로, 최대 성능을 구현합니다. 
 
-### 2. GitOps 기반의 자동화 체계를 구성해야 한다. (대상: App, Infra)
+### 2. 모든 변경(App, Infra)은 코드를 기반으로 수행한다.
 >IaC를 적극 도입하여 재 사용성과 일관성 있는 인프라를 구성하며 자산화하고,
 >
 >휴먼 에러를 최소화합니다.
@@ -62,7 +64,7 @@ Terraform, Ansible 기반으로 코드화 하였으며, PR, Issue, Fork 모두 �
 ### 4. Ingress 등의 EoS 된 구 K8s 버전의 API는 사용하지 않는다.
 >릴리즈 되는 K8s 버전을 지속적으로 따라가야 합니다.
 
-### 5. 모든 오픈소스는 latest 버전을 선택한다.
+### 5. 모든 오픈소스는 안정 버전을 선택한다
 >이전 버전을 선택할 경우, 타당한 이유를 제시해야 합니다.
 >
 >또한 오픈소스 별 버전 관리가 가능해야 합니다.
