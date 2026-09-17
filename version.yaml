@@ -1,0 +1,34 @@
+# 버전 검증은 매일 KST 09:00 에 수행되며, 
+# stack 별 릴리즈 차이 발생 시 Issue 생성됩니다.
+---
+release: "v2026.09"
+measured_at: "2026-09-17"
+
+stack:
+  kubernetes:
+    pinned: "1.35"
+    source: endoflife
+    product: kubernetes
+    track: minor
+    note: "EOL 2027-02-28"
+
+  rke2:
+    pinned: "v1.35.7+rke2r1"
+    source: github
+    repo: rancher/rke2
+    track: minor
+    note: "1.36은 Traefik 기본 전환, 1.37은 ingress-nginx 제거 — 전환 영향 확인 후 상향"
+
+  cilium:
+    pinned: "1.19.1"
+    source: github
+    repo: cilium/cilium
+    track: minor
+    note: "egress gateway 페일오버 부재(#18230)를 전제로 설계"
+
+  traefik:
+    pinned: "v3.7.12"
+    source: github
+    repo: traefik/traefik
+    track: minor
+    note: "RKE2 패키지 컴포넌트"
