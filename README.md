@@ -24,6 +24,7 @@ Terraform, Ansible 기반으로 코드화 하였으며, PR, Issue, Fork 모두 �
 ```
 .
 ├── README.md 
+├── ai
 ├── docs/
 │   ├── architecture.md 
 │   └── diagrams/
