@@ -62,9 +62,9 @@
 [관련된 [experiments](/experiments/) 링크 작성]
 
 ***ex..***
-- 1. EXP-001
-- 2. EXP-002
-- 3. EXP-00{n}
+1. EXP-001
+2. EXP-002
+3. EXP-00{n}
 
 ## 관련 링크 (Links)
 
