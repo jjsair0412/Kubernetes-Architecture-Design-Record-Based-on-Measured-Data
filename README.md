@@ -112,12 +112,12 @@ Terraform, Ansible 기반으로 [코드화](./docs/code/README.md) 하였으며,
     > Platform
 ```
 
-### 8. 모든 결정은 실측(PoC) 기반으로 한다.
+### 7. 모든 결정은 실측(PoC) 기반으로 한다.
 
-### 9. 모든 trade-off는 설득 가능해야 한다.
+### 8. 모든 trade-off는 설득 가능해야 한다.
 >개발자, 운영, 구매담당자, 임원까지 설득 가능한 아키텍처를 설계해야 합니다.
 
-## 5. Contributing
+## 9. Contributing
 해당 저장소는 **틀린 내용에 대한 반론과, 기술적 제안을 목적으로 공개합니다.**
 
 **PR, Issue, Fork 모두 환영합니다.**

@@ -1,4 +1,4 @@
-# ADR-001 : [해결된 문제와 해결책에 대한 요약 제목]
+# ADR-001 : [해결해야할 문제와 해결책에 대한 요약 제목]
 
 * **상태(Status):** [제안됨(proposed) | 거절됨(rejected) | 승인됨(accepted) | 폐기됨(deprecated) | … | ADR-0005로 대체됨(superseded by ADR-0005)]
 * **결정자(Deciders):** [의사결정에 참여한 작성자 및 검토자 목록]
